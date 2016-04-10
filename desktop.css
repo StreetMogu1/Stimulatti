@@ -1,0 +1,41 @@
+body{
+	background-color: black;
+}
+#container{
+	width: 700px;
+	height: 700px;
+	background: rgba(255, 255, 255, 0.4);
+	margin: 0 auto;
+}
+
+#header{
+	width: 700px;
+	height: 75px;
+	margin-bottom: 10px;
+	background-color: red;
+}
+
+.col{
+	display: inline-block;
+	margin-right: -4px;
+}
+#left{
+	width: 75px;
+	height: 500px;
+	background-color: gray;
+
+}
+#right{
+	width: 75px;
+	height: 500px;
+	background-color: gray;
+
+
+}
+#center{
+	width: 550px;
+	height: 500px;
+	vertical-align:top;
+	background-color: red;
+
+}

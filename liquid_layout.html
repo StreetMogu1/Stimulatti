@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+<title>Liquid Layout</title>
+
+<style>
+body{
+	background-color: orange;
+}
+#container{
+	width: 75%;
+	height: 650px;
+	background: rgba(255, 255, 255, 0.4);
+	margin: 0 auto;
+}
+
+#header{
+	width: 95%;
+	height: 90px;
+	margin-bottom: 20px;
+	background-color: blue;
+}
+
+.col{
+	display: inline-block;
+	margin-right: -4px;
+}
+#left{
+	width: 20%;
+	height: 500px;
+	background-color: yellow;
+
+}
+#right{
+	width: 20%;
+	height: 500px;
+	background-color: green;
+
+
+}
+#center{
+	width: 60%;
+	height: 500px;
+	background-color: purple;
+	vertical-align:top;
+	/*The default value for vertical-align in CSS is baseline & this rule is also apply with inline-block  */
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+<div id="container">
+	<div id="header"></div>
+
+
+			<div id="left" class="col"></div>
+			<div id="center" class="col">
+				In the United States presidential election of 1880, held on November 2, Republican James A. Garfield was elected over Democrat Winfield Scott Hancock. Garfield was an Ohio Congressman; Hancock was a Pennsylvania-born career army officer. Both were Civil War generals, as was a third candidate, Iowa Congressman James B. Weaver, nominated by the left-wing Greenback Party in a challenge to the dominance of the two major parties. In a campaign fought mainly over issues of Civil War loyalties, tariffs, and Chinese immigration, Garfield and Hancock each took just over 48 percent of the popular vote. Weaver and two other candidates made up the remainder. The voter turnout percentage was among the highest in the nation's history. In the end, the two main candidates' popular vote totals were separated by fewer than 2,000 votes, the smallest US presidential popular vote margin ever recorded. Garfield's victory was decisive in the electoral college, as he won nearly all the populous Northern states for a 214 to 155 victory.
+
+			</div>
+			<div id="right" class="col"></div>
+
+
+<div id="footer"></div>
+
+</div>
+
+
+</body>
+
+
+
+</html>

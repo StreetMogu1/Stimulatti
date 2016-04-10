@@ -1,0 +1,29 @@
+
+
+
+#outerContainer{
+  width:80%;
+  margin: 0 auto;
+}
+#carousel{
+  width: auto;
+  height: auto;
+  background-color: #990100
+}
+#fArtist{
+  width: auto;
+  height: auto;
+  background-color: #b90504
+}
+
+#apparel{
+  width: auto;
+  height: auto;
+  background-color: #E8E8E8
+}
+
+#tour{
+  width: auto;
+  height: auto;
+  background-color: #F6F6F6
+}

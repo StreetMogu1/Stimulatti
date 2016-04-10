@@ -1,0 +1,40 @@
+body{
+	background-color: Black;
+}
+#container{
+	width: 400px;
+	height: 700px;
+	background: rgba(255, 255, 255, 0.4);
+	margin: 0 auto;
+}
+
+#header{
+	width: 400px;
+	height: 80px;
+	margin-bottom: 10px;
+	background-color: red;
+}
+
+.col{
+
+}
+#left{
+	width: 425px;
+	height: 10px;
+	background-color: gray;
+
+}
+#right{
+	width: 375px;
+	height: 10px;
+	background-color: gray;
+
+
+}
+#center{
+	width: 400px;
+	height: 500px;
+	vertical-align:top;
+	background-color: red;
+
+}
